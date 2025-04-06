@@ -146,6 +146,8 @@ margin-right: 76px;
     color: #2e2f42;
     padding: 24px 0;
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
@@ -163,19 +165,19 @@ margin-right: 76px;
 
 .relative-link::after {
     content: '';
-    /* создаёт пустой элемент */
+   
     position: absolute;
     left: 0;
     bottom: -1px;
     width: 48px;
-    /* ширина */
+  
     height: 4px;
-    /* высота */
+   
     background: #404bbf;
-    /* цвет фона */
+   
     border-radius: 2px;
-    /* скругленные углы */
-    bottom: -20px;
+   
+    
 }
 
 
@@ -467,10 +469,7 @@ margin-right: 76px;
     align-items: center;
     padding: 32px 0;
 
-    /* margin-bottom: 32px; */
-
-    /* width: 264px; */
-    /* height: 428px; */
+  
     border-radius: 0px 0px 4px 4px;
       
 }
@@ -522,11 +521,11 @@ margin-right: 76px;
 
 .section-darkwhite-link {
     display: flex;
-        /* Встановлюємо flexbox */
+       
     justify-content: center;
-        /* Вирівнюємо по горизонталі */
+        
     align-items: center;
-        /* Вирівнюємо по вертикалі */
+       
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -605,7 +604,7 @@ margin-right: 76px;
     color: #2e2f42;
 
     margin-bottom: 8px;
-    /* margin-left: 16px; */
+
 }
 
 .section-title-txt {
@@ -675,6 +674,7 @@ margin-right: 76px;
 
 .footer-block {
     margin-left: 156px;
+    
     margin-right: 120px;
 
     
@@ -686,26 +686,28 @@ margin-right: 76px;
     border-radius: 50%;
     background-color: #4d5ae5;
     display: flex;
-    /* Вмикаємо flexbox для центрування */
+ 
     justify-content: center;
-    /* Центруємо по горизонталі */
+
     align-items: center;
-    /* Центруємо по вертикалі */
+ 
 }
 
 .footer-icon {
     fill: #f4f4fd;
-    /* Білий колір заливки для SVG-іконок */
+
 }
 
 .footer-txt-title {
 
+
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 16px;
     
-        /* line-height: 24px; */
+ 
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
@@ -713,15 +715,16 @@ margin-right: 76px;
 
 .footer-soc {
     display: flex;
-    /* Вмикаємо flexbox для списку */
+   
     gap: 10px;
-    /* Додаємо простір між елементами (за потреби) */
+   
 }
 
 .footer-main-content {
 
     display: flex;
-      
-    align-items: flex-start;
+    align-items: baseline;
+    margin-right: 120px;
+    
       
 }
