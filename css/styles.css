@@ -610,6 +610,7 @@ margin-right: 76px;
 .footer {
     background: #2e2f42 ;
     padding: 100px 0;
+    padding-bottom: 100px;
 
 } 
 
@@ -641,6 +642,54 @@ margin-right: 76px;
 }
 
 .footer-block {
+    margin-left: 156px;
+    margin-right: 120px;
 
     
+}
+
+.footer-soc li a {
+width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
+    /* Вмикаємо flexbox для центрування */
+    justify-content: center;
+    /* Центруємо по горизонталі */
+    align-items: center;
+    /* Центруємо по вертикалі */
+}
+
+.footer-icon {
+    fill: #f4f4fd;
+    /* Білий колір заливки для SVG-іконок */
+}
+
+.footer-txt-title {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+    
+        /* line-height: 24px; */
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-soc {
+    display: flex;
+    /* Вмикаємо flexbox для списку */
+    gap: 10px;
+    /* Додаємо простір між елементами (за потреби) */
+}
+
+.footer-main-content {
+
+    display: flex;
+      
+    align-items: flex-start;
+      
 }
