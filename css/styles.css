@@ -68,6 +68,11 @@ margin: 0 auto;
     border-bottom: 1px solid #e7e9fc;
     box-sizing: border-box;
 
+    box-shadow:
+            0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+
 
 }
 
@@ -149,6 +154,33 @@ margin-right: 76px;
     color: #404bbf;
 }
 
+
+.relative-link {
+    position: relative;
+    color: #404bbf;
+
+}
+
+.relative-link::after {
+    content: '';
+    /* создаёт пустой элемент */
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 48px;
+    /* ширина */
+    height: 4px;
+    /* высота */
+    background: #404bbf;
+    /* цвет фона */
+    border-radius: 2px;
+    /* скругленные углы */
+    bottom: -20px;
+}
+
+
+
+
 .address {
     
   
@@ -187,6 +219,8 @@ margin-right: 76px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -209,9 +243,9 @@ margin-right: 76px;
     
     width: 1440px; 
     margin: 0 auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7)
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), 
-    url(../images/hw4/peopleoffice.jpg);
+    url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -246,7 +280,7 @@ margin-right: 76px;
     display: block;
     margin: 0 auto;
 
-    min-width: 169px;
+   
 
 
     padding: 16px 32px;
@@ -393,6 +427,8 @@ margin-right: 76px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 8px;
     
 }
 
@@ -485,20 +521,16 @@ margin-right: 76px;
 }
 
 .section-darkwhite-link {
-    display: inline-block;
-      
+    display: flex;
+        /* Встановлюємо flexbox */
+    justify-content: center;
+        /* Вирівнюємо по горизонталі */
+    align-items: center;
+        /* Вирівнюємо по вертикалі */
     width: 40px;
-      
     height: 40px;
-       
     border-radius: 50%;
-     
     background-color: #4d5ae5;
-      
-    text-align: center;
-      
-    line-height: 40px;
-    /* justify-content: center; */
       
 
 
