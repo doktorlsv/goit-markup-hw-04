@@ -626,7 +626,11 @@ margin-right: 76px;
     border-top: none;
 }
 
+.portfolio-content {
 
+    position: relative;
+    overflow: hidden;
+}
 
 
 
