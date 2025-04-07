@@ -743,3 +743,10 @@ width: 40px;
 height: 40px;
 
 }
+
+footer .container {
+    
+    display: flex;
+    align-items: baseline;
+
+}
