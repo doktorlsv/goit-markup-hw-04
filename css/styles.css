@@ -597,11 +597,14 @@ img {
 }
 
 .portfolio-title {
-    text-transform: capitalize;
-
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -720,12 +723,11 @@ img {
     max-width: 264px;
 
     margin-right: 120px;
-    /* ==================== */
-
-
-
-
+    
 }
+
+
+
 
 
 
